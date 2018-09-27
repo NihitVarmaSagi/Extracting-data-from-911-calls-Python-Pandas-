@@ -9,7 +9,7 @@ import seaborn as sns
 sns.set_style('whitegrid')
 
 # The following csv file consists of details about 911 calls in a particular county downloaded from kaggle
-df = pd.read_csv("/Users/nihitvarmasagi/Downloads/Python-Data-Science-and-Machine-Learning-Bootcamp/Data-Capstone-Projects/911.csv")
+df = pd.read_csv("911.csv")
 
 print(df.info())
 
